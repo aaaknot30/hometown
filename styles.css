@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/ColoradoSprings.png");
+    background-size: cover;
+    height: 300px;
+    background-position: top;
+}
+
+.header--title {
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 2px 12px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+}
+
+.header--content {
+    width: 412px;
+    padding: 5px 10px;
+    background: #457B9D;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.activity--title {
+    margin-bottom: 25px;
+    
+}
+
+.activity-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activities {
+    background: #F1FAEE;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+
+.activities--img {
+    width: 190px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.activities--subject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+
+.activity--title {
+    margin: 15px;
+}
+
+.activity--content {
+    margin: 0;
+    font-size: 13px;
+}
+
+.guide--section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 10px 30px;
+}
+
+.guide--img {
+    width: 150px;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 20px;
+}
